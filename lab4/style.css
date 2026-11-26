@@ -1,0 +1,37 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+padding: 20px;
+color: #222222;
+}
+
+.blog-title,
+.blog-intro {
+text-align: center;
+}
+
+.card {
+width: 280px;
+min-height: 200px;
+padding: 24px;
+margin: 16px;
+border: 1px solid #d0d7de;
+border-radius: 8px;
+background-color: #ffffff;
+display: inline-block;
+vertical-align: top;
+}
+
+.card h2 {
+margin-top: 0;
+font-size: 20px;
+}
+
+.card p {
+line-height: 1.5;
+margin-bottom: 0;
+}
